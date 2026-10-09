@@ -1,0 +1,83 @@
+# ===== Скомпилированные файлы и бинарники =====
+*.o
+*.obj
+*.out
+*.exe
+*.app
+*.dSYM/
+*.dylib
+*.so
+*.a
+*.lib
+*.exe.stackdump
+
+# ===== Артефакты сборки =====
+build/
+Build/
+cmake-build-*/
+out/
+bin/
+Debug/
+Release/
+dist/
+
+# ===== CMake =====
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# ===== VS Code (личные настройки) =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
+
+# ===== Clang / LLVM =====
+*.plist
+*.gcda
+*.gcno
+*.gcov
+
+# ===== vcpkg / Conan =====
+vcpkg_installed/
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+
+# ===== Логи и временные файлы =====
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.swp
+*.swo
+*~
+
+# ===== Файлы окружения и секреты =====
+.env
+.env.local
+*.key
+secrets.json
+
+# ===== Прочее =====
+.clang-format
+.clang-tidy
